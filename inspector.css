@@ -1,0 +1,103 @@
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis--y path {
+    display: none;
+}
+
+.bar {
+    fill: lightblue;
+    fill-opacity: .9;
+}
+
+.wld {
+    fill: lightgreen;
+}
+
+.chart-title {
+    margin-bottom: 0;
+}
+
+.source {
+    margin-top: 0;
+    font-size: 11px;
+}
+
+.tooltipTest {
+    display: inline-block;
+    position: fixed;
+    padding: 0.0em 1em;
+    background-color:thistle;
+    border: lightgray;
+    border-radius: 45%;
+}
+
+.buttonDiv {
+ position:relative;
+ top : 510px;
+ left : 90%;
+ border-radius: 10%;
+ background-color: lightgray;
+}
+
+.parentDiv {
+    width: 1000px;
+    height: 700px;
+    margin: 10px auto;
+    border: 1px solid rgba(0, 0, 0, .125);
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headerDiv {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .03);
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    ;
+}
+.graphTitleDiv{
+    position : relative;
+    top : 80%;
+    
+}
+.chart {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    overflow: auto;
+}
+
+.studentDetailsDiv {
+    width: 220px;
+    height: 110px;
+    border: 1px solid #BFBFBF;
+    position: fixed;
+    top: 40%;
+    left: 85%;
+    font-size: large;
+    font-weight: 100;
+    font-style: italic;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    -ms-transform: rotate(-2deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-2deg);
+    /* Safari */
+    transform: rotate(-2deg);
+    background-color:lightblue;
+    border-radius : 5px;   
+}

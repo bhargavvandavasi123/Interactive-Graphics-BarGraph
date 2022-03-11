@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="inspector.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="parentDiv">
+        <div class="headerDiv">
+            <h2>Interactive Graphics Course Work</h2>
+        </div>
+        <div class="chart">
+
+        </div>
+        <div id="graduationTypeColor" style="visibility: hidden;">
+            <div
+                style="width:15px; height:15px; background-color: lightgreen;position: relative; left:850px; top:100px ">
+                <h4 style="padding-left: 20px;position: relative; top: -2px;text-align: center;">UG</h4>
+            </div>
+            <div
+                style="width:15px; height:15px; background-color: lightblue;position: relative; left:850px; top:105px ">
+                <h4 style="padding-left: 20px;position: relative; top: -2px;text-align: center;">PG</h4>
+            </div>
+        </div>
+        <div class="graphTitleDiv">
+            <h2 id="graphTitle" style="text-align:center">Departmental Attendance Avg Percentages</h2>
+        </div>
+        <div class="tooltipTest"></div>
+        <div>
+            <button class="buttonDiv" type="button" style="visibility: hidden;">&laquo; Previous</button>
+        </div>
+        <div class="studentDetailsDiv">
+            <table>
+                <tbody>
+                    <tr>
+                        <td> Name: </td>
+                        <td> V Bhargav</td>
+                    </tr>
+                    <tr>
+                        <td> Student Id: </td>
+                        <td> W9359065</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right:0px;"> Module Code: </td>
+                        <td> CIS4014-N </td>
+                    </tr>
+                    <tr>
+                        <td> Tutor: </td>
+                        <td> Noble Joane</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+</body>
+
+</html>
